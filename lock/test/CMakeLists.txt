@@ -39,4 +39,4 @@ ADD_EXECUTABLE(SpinlockTest ${all_files})
 
 #file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/../src/vdbs/dbconfig.txt  DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/build)
 
-TARGET_LINK_LIBRARIES(SpinlockTest pthread z dl rt crypto ssl) #protobuf)
+TARGET_LINK_LIBRARIES(SpinlockTest pthread) #protobuf)
